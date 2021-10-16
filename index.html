@@ -1,0 +1,36 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+
+
+
+  <div class="heading">
+    <h1>Stop Watch</h1>
+  </div>
+  
+  <div id="time">
+    <h2 id="min">00</h2>
+    <h2 id="sec">00</h2>
+    <h2 id="milisec">00</h2>
+  </div>
+
+  <div class="buttons">
+    <button onclick="start()" id="start">Start</button>
+    <button onclick="pause()" id="pause" disabled>Pause</button>
+    <button onclick="reset()" id="reset" disabled>Reset</button>
+    <button onclick="lap()" id="lap" disabled>Lap</button>
+  </div>
+
+  <div>
+    <ul id="lap_data">
+
+    </ul>
+  </div>
+
+<script src="./js/app.js"></script>
+</body>
+</html>
